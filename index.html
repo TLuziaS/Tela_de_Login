@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title> Sizmek Dashboard </title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="content firstContent">
+            <section class="firstColumn">
+                <h2 class="title titlePrimary"> Bem-Vindo!</h2>
+                <p class="description descriptionPrimary">Conectar agora com o seus dados já cadastros </p>
+
+                <button id="login" class="btn btnPrimary"> Entrar </button>
+
+            </section>
+
+
+            <section class="secondColumn">
+               
+                <h2 class="title titleSecond"> Cadastrar </h2>
+                <p class="description descriptionSecond"> É rápido e fácil ... </p>
+
+                <form class="form">
+
+                    <label class="labelInput">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome Completo" required>
+                    </label>
+
+                    <label class="labelInput">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email" required>
+                    </label>
+                        <p class="securityPhrase"> Nunca vamos compartilhar seu email, com ninguém. </p>
+
+                    <label class="labelInput">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" required>
+                    </label>
+
+                    <button class="btn btnSecond"> Cadastrar </button>
+
+                </form>
+
+            </section>
+
+        </section>
+
+        <section class="content secondContent">
+            
+            <article class="firstColumn">
+                <h2 class="title titlePrimary">Olá!</h2>
+                <p class="description descriptionPrimary"> Faça parte do dashboard Datorama - Sizmek </p>
+    
+                <button id="signup" class="btn btnPrimary"> Cadastrar </button>
+
+            </article>
+
+            <section class="secondColumn">
+
+                <h2 class="title titleSecond"> Acessar Dashboard </h2>
+                <p class="description descriptionSecond"> Inserá seus dados cadastrados </p>
+                
+                <form class="form">
+                    <label class="labelInput" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email" required>
+                    </label>
+
+                    <label class="labelInput" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" required>
+                    </label>
+
+                    <a class="password" href="#"> Você esqueceu á senha? </a>
+                    <button class="btn btnSecond">Entrar</button>
+                </form>
+
+            </section>
+
+        </section>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
