@@ -1,8 +1,6 @@
-<!-- Descrição: Tela de login e cadastro dinâmica com HTML5, CSS3 e JavaScript . -->
-
 # Página de Login e Cadastro
 ------------
-<!-- IMAGEM -->
+![redamelogin](https://user-images.githubusercontent.com/48417347/84444007-200a6980-ac17-11ea-85b5-00b28c7f9038.png)
 
 ### Objetivo:
 Construir uma tela de login e cadastro dinâmica.
