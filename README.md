@@ -18,7 +18,11 @@ O projeto contém uma página onde cada lado é uma opção entre Cadastre-se e 
 
 ### 💻 Layout
 <p align="center">
-    <img src="">
+    <img src="https://github.com/TamLuzs/Login-Cadastro/blob/master/layout/entrar.PNG">
+</p>
+
+<p align="center">
+    <img src="https://github.com/TamLuzs/Login-Cadastro/blob/master/layout/cadastro.PNG">
 </p>
 
 
